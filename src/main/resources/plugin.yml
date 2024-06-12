@@ -1,0 +1,14 @@
+name: YesMomIHeardYou
+version: "${version}"
+main: me.honkling.yesmomiheardyou.YesMomIHeardYou
+api-version: "1.20"
+prefix: YesMomIHeardYou
+authors: [honkling]
+description: A plugin to clean out pending messages to prevent kicks.
+website: https://github.com/honkling/YesMomIHeardYou
+commands:
+  yesmomiheardyou:
+    description: Reload the config for YesMomIHeardYou.
+    permission: yesmomiheardyou.admin
+    permission-message: You don't have permission, silly.
+    usage: /yesmomiheardyou

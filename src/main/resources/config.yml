@@ -1,0 +1,9 @@
+# How often should pending messages be cleared?
+# There isn't really a downside to this being a low number.
+# It just cannot be high enough that your server might have over 4000 messages sent in that period.
+# Default is 5 minutes.
+clear-every-x-seconds: 300
+
+# Should debug messages be printed in console?
+# "Cleared (amount) messages for (player)" printed for each player
+debug: false
